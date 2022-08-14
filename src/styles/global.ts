@@ -23,6 +23,11 @@ const GlobalStyles = globalCss({
   body: {
     background: '$bg',
   },
+
+  img: {
+    maxWidth: '100%',
+    display: 'block',
+  },
 });
 
 export default GlobalStyles;

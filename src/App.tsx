@@ -1,7 +1,7 @@
-import { Icons } from 'assets/svgs';
+import Router from 'routes';
 
 function App() {
-  return <div>{Icons.chat}</div>;
+  return <Router />;
 }
 
 export default App;
